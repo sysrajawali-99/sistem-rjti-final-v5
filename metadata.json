@@ -1,0 +1,6 @@
+{
+  "name": "Rajawali ERP & Procurement",
+  "description": "Sistem ERP Terpadu PT. Rajawali Talenta Indonesia: Pengaturan Perusahaan, Pengadaan MR & PO grouped by Supplier/PIC, Surat Jalan DO, Hutang PO, Piutang DO, Update Saldo Kas/Bank, Invoicing, Retur, dan Manajemen Hak Akses Role RBAC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

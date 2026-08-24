@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "User": {
+      "collection": "users",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "name": { "type": "string", "required": true },
+        "email": { "type": "string", "required": true },
+        "role": { "type": "string", "required": true },
+        "department": { "type": "string", "required": true },
+        "username": { "type": "string", "required": false },
+        "password": { "type": "string", "required": false },
+        "allowedMenus": { "type": "array", "required": false }
+      }
+    },
+    "InventoryItem": {
+      "collection": "inventory",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "itemCode": { "type": "string", "required": true },
+        "name": { "type": "string", "required": true },
+        "category": { "type": "string", "required": true },
+        "unit": { "type": "string", "required": true },
+        "currentStock": { "type": "number", "required": true },
+        "unitPrice": { "type": "number", "required": true },
+        "marginPercent": { "type": "number", "required": false },
+        "sellingPrice": { "type": "number", "required": false }
+      }
+    },
+    "Vendor": {
+      "collection": "vendors",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "code": { "type": "string", "required": true },
+        "name": { "type": "string", "required": true }
+      }
+    },
+    "CustomerClient": {
+      "collection": "customers",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "code": { "type": "string", "required": true },
+        "name": { "type": "string", "required": true }
+      }
+    },
+    "MaterialRequest": {
+      "collection": "material_requests",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "mrNumber": { "type": "string", "required": true },
+        "status": { "type": "string", "required": true }
+      }
+    },
+    "PurchaseOrder": {
+      "collection": "purchase_orders",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "poNumber": { "type": "string", "required": true },
+        "status": { "type": "string", "required": true }
+      }
+    },
+    "DeliveryOrder": {
+      "collection": "delivery_orders",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "doNumber": { "type": "string", "required": true },
+        "status": { "type": "string", "required": true }
+      }
+    },
+    "Invoice": {
+      "collection": "invoices",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "invoiceNumber": { "type": "string", "required": true },
+        "status": { "type": "string", "required": true }
+      }
+    },
+    "Retur": {
+      "collection": "returs",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "returNumber": { "type": "string", "required": true },
+        "status": { "type": "string", "required": true }
+      }
+    },
+    "AuditLog": {
+      "collection": "audit_logs",
+      "fields": {
+        "id": { "type": "string", "required": true },
+        "timestamp": { "type": "string", "required": true },
+        "action": { "type": "string", "required": true }
+      }
+    }
+  }
+}

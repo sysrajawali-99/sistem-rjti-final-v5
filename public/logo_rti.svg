@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="155 130 185 178" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Sapphire Blue Gradient -->
+    <linearGradient id="rtiBlue" x1="165" y1="135" x2="335" y2="205" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#084282" />
+      <stop offset="60%" stop-color="#0b5299" />
+      <stop offset="100%" stop-color="#1162af" />
+    </linearGradient>
+
+    <!-- Golden Yellow Gradients -->
+    <linearGradient id="rtiYellow1" x1="215" y1="190" x2="330" y2="235" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f5bb1b" />
+      <stop offset="100%" stop-color="#ebb00f" />
+    </linearGradient>
+    <linearGradient id="rtiYellow2" x1="220" y1="225" x2="295" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fac62b" />
+      <stop offset="100%" stop-color="#e5a80a" />
+    </linearGradient>
+
+    <!-- Crimson Red Gradients -->
+    <linearGradient id="rtiRed1" x1="215" y1="240" x2="245" y2="305" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ea2925" />
+      <stop offset="100%" stop-color="#c81717" />
+    </linearGradient>
+    <linearGradient id="rtiRed2" x1="180" y1="250" x2="220" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f43a34" />
+      <stop offset="100%" stop-color="#d61f1c" />
+    </linearGradient>
+
+    <!-- Emerald Green Gradients -->
+    <linearGradient id="rtiGreen1" x1="160" y1="215" x2="205" y2="255" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00a651" />
+      <stop offset="100%" stop-color="#008c43" />
+    </linearGradient>
+    <linearGradient id="rtiGreen2" x1="160" y1="240" x2="195" y2="270" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#02ba5d" />
+      <stop offset="100%" stop-color="#009c4d" />
+    </linearGradient>
+  </defs>
+
+  <!-- EAGLE HEAD & UPPER BLUE WING -->
+  <path d="M166 193 C175 180 190 167 212 166 L205 198 L166 193 Z" fill="#053366" />
+  <path d="M166 193 L212 166 L208 198 L166 193 Z" fill="#084282" />
+  <path d="M208 198 L212 166 L334 133 L260 200 L208 198 Z" fill="url(#rtiBlue)" />
+
+  <!-- GOLDEN YELLOW FEATHERS -->
+  <path d="M218 196 L262 196 L332 218 L266 237 L218 206 Z" fill="url(#rtiYellow1)" />
+  <path d="M228 226 L266 237 L293 282 L245 262 L228 226 Z" fill="url(#rtiYellow2)" />
+
+  <!-- CRIMSON RED FEATHERS -->
+  <path d="M220 238 L245 262 L237 304 L215 270 L220 238 Z" fill="url(#rtiRed1)" />
+  <path d="M183 248 L215 270 L184 286 L195 258 L183 248 Z" fill="url(#rtiRed2)" />
+
+  <!-- EMERALD GREEN FEATHERS -->
+  <path d="M159 253 L183 248 L201 240 L177 266 L159 253 Z" fill="url(#rtiGreen2)" />
+  <path d="M162 216 L195 216 L205 228 L166 236 L162 216 Z" fill="url(#rtiGreen1)" />
+</svg>
